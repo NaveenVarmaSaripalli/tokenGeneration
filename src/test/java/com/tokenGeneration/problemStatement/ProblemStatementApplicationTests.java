@@ -1,4 +1,4 @@
-package com.turvo.problemStatement;
+package com.tokenGeneration.problemStatement;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

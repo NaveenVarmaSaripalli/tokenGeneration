@@ -18,7 +18,7 @@ public class JdbcTemplateConfigurer {
 	public DataSource dataSource() {
 		final DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
 		driverManagerDataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/turvo");
+		driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/tokenGeneration");
 		driverManagerDataSource.setUsername("root");
 		driverManagerDataSource.setPassword("root");
 		return driverManagerDataSource;
